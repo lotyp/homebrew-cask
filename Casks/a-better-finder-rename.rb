@@ -1,4 +1,4 @@
-cask "a-better-finder-rename" do
+cask "a-better-finder-rename-alt" do
   version "11.44"
   sha256 :no_check # required as upstream package is updated in-place
 
