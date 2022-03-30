@@ -2,9 +2,9 @@ cask "new-file-menu-alt" do
   version "1.5"
   sha256 :no_check
 
-  url "https://www.dropbox.com/s/bcun4j1q01ujvh8/New.File.Menu.v#{version.major_minor}.dmg.zip?dl=1",
+  url "https://www.dropbox.com/s/qprefws2cj2yfgn/New.File.Menu.#{version.major_minor}.dmg.zip?dl=1",
       user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
-      referer: "https://www.dropbox.com/s/bcun4j1q01ujvh8/New.File.Menu.v1.5.dmg.zip?dl=1"
+      referer: "https://www.dropbox.com/s/qprefws2cj2yfgn/New.File.Menu.#{version.major_minor}.dmg.zip?dl=0"
   name "New File Menu"
   desc "Create files via Finder menu"
   homepage "https://langui.net/new-file-menu/"
