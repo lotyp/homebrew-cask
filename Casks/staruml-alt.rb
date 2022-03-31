@@ -1,4 +1,4 @@
-cask "staruml" do
+cask "staruml-alt" do
   version "5.0.1"
   sha256 :no_check
 

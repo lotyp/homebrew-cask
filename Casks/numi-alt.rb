@@ -1,4 +1,4 @@
-cask "numi" do
+cask "numi-alt" do
   version "3.30.701"
   sha256 :no_check
 

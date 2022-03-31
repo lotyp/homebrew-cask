@@ -1,4 +1,4 @@
-cask "coderunner" do
+cask "coderunner-alt" do
   version "4.1,62956"
   sha256 :no_check
 

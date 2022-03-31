@@ -1,4 +1,4 @@
-cask "sublime-text-dev" do
+cask "sublime-text-dev-alt" do
   version "4.131"
   sha256 :no_check
 

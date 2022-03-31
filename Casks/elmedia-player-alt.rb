@@ -1,4 +1,4 @@
-cask "elmedia-player" do
+cask "elmedia-player-alt" do
   version "8.4,3056"
   sha256 :no_check
 

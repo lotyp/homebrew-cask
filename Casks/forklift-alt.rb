@@ -1,4 +1,4 @@
-cask "forklift" do
+cask "forklift-alt" do
   version "3.5.6,218"
   sha256 :no_check
 

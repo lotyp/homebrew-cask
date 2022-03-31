@@ -1,4 +1,4 @@
-cask "sublime-merge-dev" do
+cask "sublime-merge-dev-alt" do
   version "2.0.2069"
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-cask "paw" do
+cask "paw-alt" do
   version "3.3.6,3003006001"
   sha256 :no_check
 

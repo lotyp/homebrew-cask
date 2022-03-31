@@ -1,4 +1,4 @@
-cask "dash" do
+cask "dash-alt" do
   version "6.2.3,994"
   sha256 :no_check
 
