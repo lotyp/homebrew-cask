@@ -20,7 +20,10 @@ cask "sublime-text-dev-alt" do
     end
   end
 
-  conflicts_with cask: "sublime-text"
+  conflicts_with cask: [
+    "sublime-text",
+    "sublime-text-dev",
+  ]
 
   app "Sublime Text.app"
   binary "#{appdir}/Sublime Text.app/Contents/SharedSupport/bin/subl"

@@ -14,7 +14,10 @@ cask "sublime-merge-dev-alt" do
     regex(/"latest_version"\s*:\s*(\d+)/i)
   end
 
-  conflicts_with cask: "sublime-merge"
+  conflicts_with cask: [
+    "sublime-merge",
+    "sublime-merge-dev",
+  ]
 
   app "Sublime Merge.app"
   binary "#{appdir}/Sublime Merge.app/Contents/SharedSupport/bin/smerge"

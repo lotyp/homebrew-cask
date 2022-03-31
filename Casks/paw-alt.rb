@@ -14,6 +14,7 @@ cask "paw-alt" do
     strategy :sparkle
   end
 
+  conflicts_with cask: "paw"
   depends_on macos: ">= :sierra"
 
   app "Paw.app"

@@ -12,6 +12,8 @@ cask "coderunner-alt" do
     strategy :sparkle
   end
 
+  conflicts_with cask: "coderunner"
+
   app "CodeRunner.app"
 
   zap trash: [

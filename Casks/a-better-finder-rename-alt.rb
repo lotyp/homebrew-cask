@@ -16,6 +16,8 @@ cask "a-better-finder-rename-alt" do
 
   depends_on macos: ">= :yosemite"
 
+  conflicts_with cask: "a-better-finder-rename"
+
   app "A Better Finder Rename #{version.major}.app"
 
   zap trash: [

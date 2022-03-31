@@ -14,6 +14,8 @@ cask "dash-alt" do
     strategy :sparkle
   end
 
+  conflicts_with cask: "dash"
+
   app "Dash.app"
 
   zap trash: [

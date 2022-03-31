@@ -14,16 +14,17 @@ cask "forklift-alt" do
     strategy :sparkle
   end
 
+  conflicts_with cask: "forklift"
   depends_on macos: ">= :el_capitan"
 
   app "ForkLift.app"
 
-  uninstall delete:    "/Library/PrivilegedHelperTools/com.binarynights.ForkLiftHelper",
+  uninstall delete: "/Library/PrivilegedHelperTools/com.binarynights.ForkLiftHelper",
             launchctl: [
               "com.binarynights.ForkLiftHelper",
               "com.binarynights.ForkLiftMini",
             ],
-            quit:      [
+            quit: [
               "com.binarynights.ForkLift-#{version.major}",
               "com.binarynights.ForkLiftMini",
             ]

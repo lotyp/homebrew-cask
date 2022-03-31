@@ -14,6 +14,7 @@ cask "navicat-premium-alt" do
     regex(/Navicat\sPremium\s\(macOS\)\sversion\s(\d+(?:\.\d+)+)/i)
   end
 
+  conflicts_with cask: "navicat-premium"
   depends_on macos: ">= :mojave"
 
   app "Navicat Premium.app"

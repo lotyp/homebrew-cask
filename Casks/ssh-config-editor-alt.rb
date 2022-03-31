@@ -14,6 +14,7 @@ cask "ssh-config-editor-alt" do
     strategy :sparkle
   end
 
+  conflicts_with cask: "ssh-config-editor"
   depends_on macos: ">= :catalina"
 
   app "SSH Config Editor.app"

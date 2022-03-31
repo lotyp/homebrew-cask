@@ -14,12 +14,13 @@ cask "numi-alt" do
     strategy :header_match
   end
 
+  conflicts_with cask: "numi"
   depends_on macos: ">= :sierra"
 
   app "Numi.app"
 
   uninstall launchctl: "com.dmitrynikolaev.numi#{version.major}helper",
-            quit:      "com.dmitrynikolaev.numi"
+            quit: "com.dmitrynikolaev.numi"
 
   zap trash: [
     "~/Library/Application Support/Numi",

@@ -14,6 +14,7 @@ cask "elmedia-player-alt" do
     strategy :sparkle
   end
 
+  conflicts_with cask: "elmedia-player"
   app "Elmedia Player.app"
 
   zap trash: [

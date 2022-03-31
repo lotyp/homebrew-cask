@@ -19,6 +19,8 @@ cask "alfred-alt" do
     end
   end
 
+  conflicts_with cask: "alfred"
+
   app "Alfred #{version.major}.app"
 
   uninstall quit: "com.runningwithcrayons.Alfred"

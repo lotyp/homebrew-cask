@@ -20,5 +20,7 @@ cask "staruml-alt" do
     regex(%r{href=.*?/StarUML-(\d+(?:\.\d+)*)\.dmg}i)
   end
 
+  conflicts_with cask: "staruml"
+
   app "StarUML.app"
 end
