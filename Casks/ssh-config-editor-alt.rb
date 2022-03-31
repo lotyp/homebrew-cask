@@ -1,4 +1,4 @@
-cask "ssh-config-editor-alt-alt" do
+cask "ssh-config-editor-alt" do
   version "2.3.2,91"
   sha256 :no_check
 
