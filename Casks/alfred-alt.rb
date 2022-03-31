@@ -19,8 +19,6 @@ cask "alfred-alt" do
     end
   end
 
-  auto_updates false
-
   app "Alfred #{version.major}.app"
 
   uninstall quit: "com.runningwithcrayons.Alfred"
