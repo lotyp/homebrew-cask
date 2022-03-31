@@ -4,7 +4,7 @@ cask "paw-alt" do
 
   url "https://www.dropbox.com/s/9zp6jt243pl1llr/Paw.#{version.major_minor}.dmg.zip?dl=1",
       user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
-      referer: "https://www.dropbox.com/s/9zp6jt243pl1llr/Paw.#{version.major_minor}.dmg.zip?dl=1"
+      referer: "https://www.dropbox.com/"
   name "Paw"
   desc "HTTP client that helps testing and describing APIs"
   homepage "https://paw.cloud/"

@@ -4,7 +4,7 @@ cask "navicat-premium-alt" do
 
   url "https://www.dropbox.com/s/gesd73cnl9zt2vn/Navicat.Premium.#{version.major_minor_patch}.dmg.zip?dl=1",
       user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
-      referer: "https://www.dropbox.com/s/gesd73cnl9zt2vn/Navicat.Premium.#{version.major_minor_patch}.dmg.zip?dl=1"
+      referer: "https://www.dropbox.com/"
   name "Navicat Premium"
   desc "Database administration and development tool"
   homepage "https://www.navicat.com/products/navicat-premium"

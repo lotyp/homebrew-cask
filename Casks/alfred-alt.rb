@@ -4,7 +4,7 @@ cask "alfred-alt" do
 
   url "https://www.dropbox.com/s/42lmr7uiaun0sxm/Alfred.#{version.major_minor_patch}.#{version.after_comma}.dmg.zip?dl=1",
       user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
-      referer: "https://www.dropbox.com/s/42lmr7uiaun0sxm/Alfred.#{version.major_minor_patch}.#{version.after_comma}.dmg.zip?dl=1"
+      referer: "https://www.dropbox.com/"
   name "Alfred"
   desc "Application launcher and productivity software"
   homepage "https://www.alfredapp.com/"

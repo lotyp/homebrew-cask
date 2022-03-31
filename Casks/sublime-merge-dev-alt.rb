@@ -4,7 +4,7 @@ cask "sublime-merge-dev-alt" do
 
   url "https://www.dropbox.com/s/qns9b1b5tnihgot/Sublime.Merge.#{version}.dmg.zip?dl=1",
       user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
-      referer: "https://www.dropbox.com/s/qns9b1b5tnihgot/Sublime.Merge.#{version}.dmg.zip?dl=1"
+      referer: "https://www.dropbox.com/"
   name "Sublime Merge"
   desc "Git client"
   homepage "https://www.sublimemerge.com/dev"
