@@ -1,6 +1,6 @@
 cask "focus-alt" do
   version "1.13.1"
-  sha256 :no-check
+  sha256 :no_check
 
   url "https://www.dropbox.com/s/zgzm7n9vh0yjeh2/Focus.#{version}.dmg.zip?dl=1",
       user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
