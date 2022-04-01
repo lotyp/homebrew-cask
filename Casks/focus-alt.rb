@@ -10,11 +10,6 @@ cask "focus-alt" do
   desc "Website and application blocker"
   homepage "https://heyfocus.com/"
 
-  livecheck do
-    url "https://heyfocus.com/focus.zip"
-    strategy :header_match
-  end
-
   conflicts_with cask: "focus"
   depends_on macos: ">= :yosemite"
 
