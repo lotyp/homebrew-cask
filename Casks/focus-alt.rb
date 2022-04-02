@@ -5,7 +5,6 @@ cask "focus-alt" do
   url "https://www.dropbox.com/s/zgzm7n9vh0yjeh2/Focus.#{version}.dmg.zip?dl=1",
       user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
       referer: "https://www.dropbox.com/"
-  url "https://heyfocus.com/uploads/Focus-v#{version}.zip"
   name "Focus"
   desc "Website and application blocker"
   homepage "https://heyfocus.com/"
