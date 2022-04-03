@@ -2,9 +2,7 @@ cask "a-better-finder-rename-alt" do
   version "11.44"
   sha256 :no_check # required as upstream package is updated in-place
 
-  url "https://www.dropbox.com/s/wttsc2p4334p8ek/A.Better.Finder.Rename.#{version}.dmg.zip?dl=1",
-      user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
-      referer: "https://www.dropbox.com/"
+  url "https://gitlab.com/wayofdev/casks/-/raw/main/A.Better.Finder.Rename.#{version}.dmg.zip?inline=false"
   name "A Better Finder Rename"
   desc "Renamer for files, music and photos"
   homepage "https://www.publicspace.net/ABetterFinderRename/"

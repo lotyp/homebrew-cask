@@ -2,9 +2,7 @@ cask "sublime-text-dev-alt" do
   version "4.131"
   sha256 :no_check
 
-  url "https://www.dropbox.com/s/4tkknrlhan5uqay/Sublime.Text.#{version}.dmg.zip?dl=1",
-      user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
-      referer: "https://www.dropbox.com/"
+  url "https://gitlab.com/wayofdev/casks/-/raw/main/Sublime.Text.#{version}.dmg.zip?inline=false"
   name "Sublime Text"
   desc "Text editor for code, markup and prose"
   homepage "https://www.sublimetext.com/dev"

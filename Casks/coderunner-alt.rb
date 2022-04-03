@@ -2,7 +2,7 @@ cask "coderunner-alt" do
   version "4.1,62956"
   sha256 :no_check
 
-  url "https://coderunnerapp.com/download/update/CodeRunner-#{version.csv.first}.zip"
+  url "https://gitlab.com/wayofdev/casks/-/raw/main/CodeRunner.#{version.major_minor}.dmg.zip?inline=false"
   name "CodeRunner"
   desc "Multi-language programming editor"
   homepage "https://coderunnerapp.com/"
